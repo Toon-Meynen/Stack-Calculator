@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tmtoon/Documents/cpp/Stack Calculator/Data.hpp
+iostream
+-
+
+/home/tmtoon/Documents/cpp/Stack Calculator/Instruction.hpp
+stack
+-
+vector
+-
+Data.hpp
+/home/tmtoon/Documents/cpp/Stack Calculator/Data.hpp
+
+/home/tmtoon/Documents/cpp/Stack Calculator/Program.hpp
+vector
+-
+
+/home/tmtoon/Documents/cpp/Stack Calculator/StackMachine.hpp
+
+/home/tmtoon/Documents/cpp/Stack Calculator/main.cpp
+iostream
+-
+Data.hpp
+/home/tmtoon/Documents/cpp/Stack Calculator/Data.hpp
+Instruction.hpp
+/home/tmtoon/Documents/cpp/Stack Calculator/Instruction.hpp
+Program.hpp
+/home/tmtoon/Documents/cpp/Stack Calculator/Program.hpp
+StackMachine.hpp
+/home/tmtoon/Documents/cpp/Stack Calculator/StackMachine.hpp
+
