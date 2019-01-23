@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Stack_Calculator.dir/main.cpp.o  -o Stack_Calculator 
